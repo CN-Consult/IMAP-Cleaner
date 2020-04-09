@@ -1,0 +1,24 @@
+{
+  "name": "cn-consult/IMAP-Cleaner",
+  "description": "Commandline utility that helps cleaning up big imap folders.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Daniel Haas",
+      "email": "daniel.haas@cn-consult.eu"
+    },{
+      "name": "Jens Stahl",
+      "email": "jens.stahl@cn-consult.eu"
+    }
+  ],
+  "require": {
+    "symfony/console": "5.0.7",
+    "ext-imap": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ImapCleaner\\": "src/"
+    }
+  }
+}
