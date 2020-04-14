@@ -1,5 +1,4 @@
 docker-compose.yml
-composer.json
-composer.lock
 Dockerfile
 dev.Dockerfile
+vendor

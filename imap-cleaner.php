@@ -10,11 +10,11 @@
  */
 
 
-require __DIR__.'/vendor/autoload.php';
+require __DIR__ . '/vendor/autoload.php';
 
 use Symfony\Component\Console\Application;
 
-$application = new Application("IMAP-Cleaner","1.0");
+$application = new Application("IMAP-Cleaner","1.0.1");
 
 $application->add(new \ImapCleaner\Commands\ListMailBoxesCommand());
 $application->add(new \ImapCleaner\Commands\CleanupMailboxCommand());

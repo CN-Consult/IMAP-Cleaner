@@ -1,5 +1,5 @@
 {
-  "name": "cn-consult/IMAP-Cleaner",
+  "name": "cn-consult/imap-cleaner",
   "description": "Commandline utility that helps cleaning up big imap folders.",
   "minimum-stability": "stable",
   "license": "MIT",
