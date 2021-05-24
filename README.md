@@ -6,11 +6,11 @@ A php-based commandline tool that helps in cleaning up full IMAP mailboxes.
 
 ## Usage
 If you have docker installed, it is dead simple to use this, just execute it with docker:
-`docker run -it --rm cn-consult/imap-cleaner`.
+`docker run -it --rm cnconsult/imap-cleaner`.
 
-Use `docker run -it --rm cn-consult/imap-cleaner mailbox:list -s <server> <email>` to list all mailbox of a your account.
+Use `docker run -it --rm cnconsult/imap-cleaner mailbox:list -s <server> <email>` to list all mailbox of a your account.
 
-Use `docker run -it --rm cn-consult/imap-cleaner mailbox:cleanup -s <server> <email> <mailbox>` to delete old mails.
+Use `docker run -it --rm cnconsult/imap-cleaner mailbox:cleanup -s <server> <email> <mailbox>` to delete old mails.
 
 Required parameters can be passed as arguments or options, but they are also asked interactivley if not specified.
 This for example allows you to enter the password with the keyboard which is more secure than passing
